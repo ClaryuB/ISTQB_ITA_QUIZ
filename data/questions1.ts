@@ -22,7 +22,7 @@ const questions1: Question[] = [
    "Avere tester coinvol ti durante le diverse attività del ciclo di vita dello sviluppo software (Software Development Lifecycle , SDLC) aiuterà a rilevare difetti nei prodotti di lavoro",
    "I tester cercano di non disturbare gli sviluppatori durante la codifica, in modo che gli sviluppatori scrivano codice migliore",
    "I tester che collaborano con gli utenti finali contribuiscono a migliorare la qualità dei defect report durante il testing di integrazione dei componenti e il testing di sistema",
-   "I tester certificati progetteranno test case molto migliori d ei tester non certificati"
+   "I tester certificati progetteranno test case molto migliori dei tester non certificati"
   ],
   "corretta": [
    "a"
@@ -127,7 +127,7 @@ const questions1: Question[] = [
   "opzioni": [
    "In ATDD, i criteri di accettazione sono tipicamente creati sulla base del formato given/when/then",
    "In ATDD, i test case sono creati principalmente per il testing di componente e sono code-oriented ( orientati al codice )",
-   "In ATDD i test case sono creati sulla base de i criteri di accettazione, per guidare lo sviluppo del software correlato",
+   "In ATDD i test case sono creati sulla base dei criteri di accettazione, per guidare lo sviluppo del software correlato",
    "In ATDD, i test sono creati sulla base de l comportamento desiderato del software, e questo"
   ],
   "corretta": [
@@ -138,7 +138,7 @@ const questions1: Question[] = [
   "id": "11",
   "domanda": "Quale dei seguenti NON è un esempio di approccio shift-left?",
   "opzioni": [
-   "Eseguire la review de i requisiti dell’utente prima della loro accettazione formale da parte degli stakeholder",
+   "Eseguire la review dei requisiti dell’utente prima della loro accettazione formale da parte degli stakeholder",
    "Scrivere un test di componente prima di scrivere il codice corrispondente",
    "Eseguire un testing di efficienza delle prestazioni per un componente durante il testing di componente",
    "Scrivere un test script prima di definire il processo di configuration management"
@@ -413,7 +413,7 @@ const questions1: Question[] = [
  },
  {
   "id": "29",
-  "domanda": "Si consideri la seguente user story: \nCome Editore Voglio eseguire la review de i contenuti prima che venga no pubblicati in modo da assicurarmi che la grammatica sia corretta \ne i relativi criteri di accettazione: \n• L'utente può accedere al sistema di content management con il ruolo di \"Editore\" \n• L'editore può visualizzare le pagine di contenuto esistenti \n• L'editore può modificare il contenuto della pagina \n• L'editore può aggiungere commenti di markup \n• L'editore può salvare le modifiche \n• L'editore può riassegnare il ruolo di \"proprietario dei contenuti\" per eseguire gli aggiornamenti \nQuale dei seguenti è il MIGLIOR esempio di test ATDD per questa user story?",
+  "domanda": "Si consideri la seguente user story: \nCome Editore Voglio eseguire la review dei contenuti prima che venga no pubblicati in modo da assicurarmi che la grammatica sia corretta \ne i relativi criteri di accettazione: \n• L'utente può accedere al sistema di content management con il ruolo di \"Editore\" \n• L'editore può visualizzare le pagine di contenuto esistenti \n• L'editore può modificare il contenuto della pagina \n• L'editore può aggiungere commenti di markup \n• L'editore può salvare le modifiche \n• L'editore può riassegnare il ruolo di \"proprietario dei contenuti\" per eseguire gli aggiornamenti \nQuale dei seguenti è il MIGLIOR esempio di test ATDD per questa user story?",
   "opzioni": [
    "Testare se l'editore può salvare il documento dopo aver modificato il contenuto della pagina",
    "Testare se il proprietario dei contenuti può accedere e aggiornare il contenuto",
@@ -426,7 +426,7 @@ const questions1: Question[] = [
  },
  {
   "id": "30",
-  "domanda": "In che modo i tester aggiungono valore alla pianificazione dell’iterazion e e alla pianificazione della release ?",
+  "domanda": "In che modo i tester aggiungono valore alla pianificazione dell’iterazione e alla pianificazione della release ?",
   "opzioni": [
    "I tester determinano la priorità delle user story da sviluppare",
    "I tester si focalizzano solo sugli aspetti funzionali del sistema da testare",
@@ -439,7 +439,7 @@ const questions1: Question[] = [
  },
  {
   "id": "31",
-  "domanda": "Quali DUE delle seguenti opzioni possono essere considerat e come criteri di uscita relativ i alle attività de l test di sistema?",
+  "domanda": "Quali DUE delle seguenti opzioni possono essere considerat e come criteri di uscita relativi alle attività de l test di sistema?",
   "opzioni": [
    "Readiness dell'ambiente di test",
    "Capacità di eseguire il log in del l'oggetto di test da parte del tester",

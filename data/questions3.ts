@@ -330,7 +330,7 @@ const questions1: Question[] = [
   "domanda": "In che modo il testing white-box può essere utile a supporto del testing black-box?",
   "opzioni": [
    "Le misure di copertura white-box possono aiutare i tester a valutare i test black-box in termini di copertura del codice ottenuta da quest i test black-box",
-   "L'analisi di copertura white-box può aiutare i tester a identificare il codice sorgente non raggiungibil e",
+   "L'analisi di copertura white-box può aiutare i tester a identificare il codice sorgente non raggiungibile",
    "Il testing dei rami comprende le tecniche di test black-box; quindi, il raggiungimento della copertura completa dei rami garantisce il raggiungimento della copertura completa di qualsiasi tecnica black-box",
    "Le tecniche di test white-box possono fornire elementi di copertura per le tecniche black-"
   ],
@@ -457,9 +457,9 @@ const questions1: Question[] = [
  },
  {
   "id": "35",
-  "domanda": "Quale dei seguenti è un esempio di come l'analisi de i rischi di prodotto possa influenzare l’accuratezza e l'ambito del testing?",
+  "domanda": "Quale dei seguenti è un esempio di come l'analisi dei rischi di prodotto possa influenzare l’accuratezza e l'ambito del testing?",
   "opzioni": [
-   "Il monitoraggio continuo de i risch i permette di identificare i rischi emergenti il prima possibile",
+   "Il monitoraggio continuo dei risch i permette di identificare i rischi emergenti il prima possibile",
    "L'identificazione del rischio permette di implementare le attività di mitigazione del rischio e di ridurre il livello di rischio",
    "Il livello di rischio valutato aiuta a determinare i livelli di test e le tecniche di test",
    "L'analisi del rischio permette di derivare gli elementi di copertura"

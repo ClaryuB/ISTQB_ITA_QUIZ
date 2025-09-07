@@ -386,7 +386,7 @@ const questions1: Question[] = [
   "opzioni": [
    "Planning poker, in modo che un team possa raggiungere il consenso sull’effort necessario per implementare una user story",
    "Review, in modo che un team possa rilevare inconsistenze e contraddizioni in una user story",
-   "Pianificazione dell’iterazion e, in modo che le user story con il più alto valore di business per un cliente possano essere prioritizzate per l'implementazione",
+   "Pianificazione dell’iterazione, in modo che le user story con il più alto valore di business per un cliente possano essere prioritizzate per l'implementazione",
    "Conversazione, in modo che i membri del team possano capire come verrà utilizzato il"
   ],
   "corretta": [

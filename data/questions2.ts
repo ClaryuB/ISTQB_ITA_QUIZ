@@ -99,7 +99,7 @@ const questions1: Question[] = [
   "opzioni": [
    "Permette ai membri del team di assumere qualsiasi ruolo in qualsiasi momento",
    "Necessita di un solo team per supportare l'intero progetto di sviluppo",
-   "Rappresentanti di business e sviluppatori sono parte d ello stesso team",
+   "Rappresentanti di business e sviluppatori sono parte dello stesso team",
    "Genera una sinergia nel team che va a vantaggio dell'intero progetto"
   ],
   "corretta": [
@@ -123,8 +123,8 @@ const questions1: Question[] = [
   "id": "10",
   "domanda": "Quale delle seguenti è una buona pratica del testing che si applica a tutti i cicli di vita dello sviluppo software?",
   "opzioni": [
-   "I tester dovrebbero eseguire la review de i prodotti di lavoro come parte della successiva fase di sviluppo",
-   "I tester dovrebbero eseguire la review di un prodott o di lavoro non appena la versione draft è disponibil e",
+   "I tester dovrebbero eseguire la review dei prodotti di lavoro come parte della successiva fase di sviluppo",
+   "I tester dovrebbero eseguire la review di un prodotto di lavoro non appena la versione draft è disponibile",
    "I tester dovrebbero eseguire la review dei prodotti di lavoro prima di iniziare l'analisi dei test",
    "I tester dovrebbero eseguire la review dei prodotti di lavoro subito dopo il loro rilascio"
   ],
