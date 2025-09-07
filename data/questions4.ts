@@ -16,7 +16,7 @@ const questions1: Question[] = [
  },
  {
   "id": "2",
-  "domanda": "Un progettista documenta la progett azione di un'interfaccia utente che non indirizza in modo adeguato gli utenti disabili , perché il progettista è stanco. Il programmatore implementa l'interfaccia utente in linea con la progett azione ma, poiché sta lavora ndo sotto forte pressione sui tempi, non include nel codice del programma un'adeguata gestione delle eccezioni per il calcolo dei bonus. Quando il sistema operativo viene utilizzato , alcuni utenti disabili si lamentano dell'interfaccia e l'azienda viene successivamente multata dall’autorità rilevante per la normativa . Nessuno si accorge che i calcoli dei bonus a volte sono errati. Quale delle seguenti affermazioni è CORRETTA?",
+  "domanda": "Un progettista documenta la progettazione di un'interfaccia utente che non indirizza in modo adeguato gli utenti disabili , perché il progettista è stanco. Il programmatore implementa l'interfaccia utente in linea con la progettazione ma, poiché sta lavora ndo sotto forte pressione sui tempi, non include nel codice del programma un'adeguata gestione delle eccezioni per il calcolo dei bonus. Quando il sistema operativo viene utilizzato , alcuni utenti disabili si lamentano dell'interfaccia e l'azienda viene successivamente multata dall’autorità rilevante per la normativa . Nessuno si accorge che i calcoli dei bonus a volte sono errati. Quale delle seguenti affermazioni è CORRETTA?",
   "opzioni": [
    "Il calcolo errato dei bonus è un difetto che si verifica occasionalmente",
    "La multa ricevuta per non aver indirizzato in modo errato alcuni utenti disabili è un failure",

@@ -138,7 +138,7 @@ const questions1: Question[] = [
   "domanda": "Quale delle seguenti fornisce la MIGLIORE descrizione dell'approccio shift-left?",
   "opzioni": [
    "Se concordato dagli sviluppatori, le attività manuali sul lato sinistro del processo di test vengono automatizzate per supportare il principio \"il testing anticipato permette di risparmiare tempo e denaro\"",
-   "Quando risulta efficace dal punto di vista dei costi, le attività di test vengono anticipate nel ciclo di vita dello sviluppo software (SDLC) , per ridurre il costo totale della qualità attraverso la riduzione de l numero di difetti rilevati successivamente nel SDLC",
+   "Quando risulta efficace dal punto di vista dei costi, le attività di test vengono anticipate nel ciclo di vita dello sviluppo software (SDLC) , per ridurre il costo totale della qualità attraverso la riduzione del numero di difetti rilevati successivamente nel SDLC",
    "Quando hanno tempo libero a disposizione, i tester devono automatizzare i regression test, a partire dai test di componente e dai test di integrazione dei componenti",
    "Quando possibile, i tester sono formati per eseguire i compiti nelle prime fasi del ciclo di"
   ],

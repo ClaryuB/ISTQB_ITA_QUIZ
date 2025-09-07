@@ -8,7 +8,7 @@ const questions1: Question[] = [
   "opzioni": [
    "Dimostrare che non esistono difetti non risolti nel sistema sotto test (System Under Test, SUT)",
    "Dimostrare che non si verificheranno failure dopo il rilascio del sistema in produzione",
-   "Ridurre il livello di rischio dell'oggetto di test e creare confidenza su l livello di qualità",
+   "Ridurre il livello di rischio dell'oggetto di test e creare confidenza sul livello di qualità",
    "Verificare che non ci s ono combinazioni di input non testate"
   ],
   "corretta": [
@@ -128,7 +128,7 @@ const questions1: Question[] = [
    "In ATDD, i criteri di accettazione sono tipicamente creati sulla base del formato given/when/then",
    "In ATDD, i test case sono creati principalmente per il testing di componente e sono code-oriented ( orientati al codice )",
    "In ATDD i test case sono creati sulla base dei criteri di accettazione, per guidare lo sviluppo del software correlato",
-   "In ATDD, i test sono creati sulla base de l comportamento desiderato del software, e questo"
+   "In ATDD, i test sono creati sulla base del comportamento desiderato del software, e questo"
   ],
   "corretta": [
    "c"
@@ -439,7 +439,7 @@ const questions1: Question[] = [
  },
  {
   "id": "31",
-  "domanda": "Quali DUE delle seguenti opzioni possono essere considerat e come criteri di uscita relativi alle attività de l test di sistema?",
+  "domanda": "Quali DUE delle seguenti opzioni possono essere considerat e come criteri di uscita relativi alle attività del test di sistema?",
   "opzioni": [
    "Readiness dell'ambiente di test",
    "Capacità di eseguire il log in del l'oggetto di test da parte del tester",
@@ -544,7 +544,7 @@ const questions1: Question[] = [
   "domanda": "Avete ricevuto il seguente defect report dagli sviluppatori, in cui si afferma che l'anomalia descritta in questo test report non è riproducibile. \nL'applicazione si blocca \n03-maggio-2022 – \nJohn Doe- Rifiutato \nL'applicazione si blocca dopo aver inserito \" Input del t est: $ä\" nel campo Nome nella schermata di creazione di un nuovo utente. Ho provato a disconnettermi e ad accedere con l'account test_admin01, stesso problema. Ho provato con altri account test_ admin, stesso problema. Non è stato ricevuto alcun messaggio di errore; il log (vedi allegato) contiene una notifica di errore fatale. In base al test case TC-1305, l'applicazione dovrebbe accettare l'input inserito e creare l'utente. Si prega di risolvere il problema con priorità elevata, poiché questa funzionalità è correlata a REQ-0012, che è un nuovo requisito di business critico. \nQuali informazioni critiche sono MANCAN TI in questo test report che sarebbero state utili per gli sviluppatori?",
   "opzioni": [
    "Risultato atteso e risultato ottenuto",
-   "Riferimenti e stato de l difett o",
+   "Riferimenti e stato del difetto",
    "Ambiente di test e oggetto di test",
    "Priorità e severità"
   ],

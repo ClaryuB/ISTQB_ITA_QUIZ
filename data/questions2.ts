@@ -491,7 +491,7 @@ domanda: 'State eseguendo il testing di un\'applicazione web che permette agli u
  },
  {
   "id": "35",
-  "domanda": "Quale de lle seguenti è una metrica di qualità del prodotto?",
+  "domanda": "Quale delle seguenti è una metrica di qualità del prodotto?",
   "opzioni": [
    "Mean time to failure",
    "Numero di difetti rilevati",
