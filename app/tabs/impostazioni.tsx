@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, Switch, Text, View } from 'react-native';
+import { Linking, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { caricaImpostazioni, salvaImpostazioni } from '../../utils/settings';
 
 export default function ImpostazioniScreen() {
@@ -18,7 +18,7 @@ export default function ImpostazioniScreen() {
   }, [darkMode, timerAttivo]);
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <Text style={styles.title}>⚙️ Impostazioni</Text>
 
       <View style={styles.row}>
@@ -32,7 +32,40 @@ export default function ImpostazioniScreen() {
       </View>
 
       <Text style={styles.note}>Le modifiche vengono salvate automaticamente.</Text>
-    </View>
+
+      {/* Crediti e Autori */}
+      <Text style={styles.sectionTitle}>🧾 Crediti e Autori</Text>
+      <Text style={styles.paragraph}>Creatore: Claudio</Text>
+      <Text style={styles.link} onPress={() => Linking.openURL('https://github.com/ClaryuB')}>
+        GitHub: github.com/ClaryuB
+      </Text>
+      <Text style={styles.paragraph}>Ringraziamenti: Expo, React Native, TypeScript, ISTQB syllabus</Text>
+
+      {/* Informazioni sull’app */}
+      <Text style={styles.sectionTitle}>📄 Informazioni sull’app</Text>
+      <Text style={styles.paragraph}>Versione: v1.0.0</Text>
+      <Text style={styles.paragraph}>Stato: Work in progress</Text>
+      <Text style={styles.paragraph}>Ultimo aggiornamento: 08/09/2025</Text>
+      <Text style={styles.link} onPress={() => Linking.openURL('https://github.com/ClaryuB/ISTQB_ITA_QUIZ')}>
+        Changelog su GitHub
+      </Text>
+
+      {/* Fonti e Riferimenti */}
+      <Text style={styles.sectionTitle}>📚 Fonti e Riferimenti</Text>
+      <Text style={styles.link} onPress={() => Linking.openURL('https://www.istqb.org')}>
+        Syllabus ISTQB ufficiale
+      </Text>
+      <Text style={styles.paragraph}>Disclaimer: Questa app non è affiliata ufficialmente con ISTQB.</Text>
+
+      {/* Contatti e Feedback */}
+      <Text style={styles.sectionTitle}>📬 Contatti e Feedback</Text>
+      <Text style={styles.link} onPress={() => Linking.openURL('mailto:claryub@gmail.com')}>
+        Invia feedback via email
+      </Text>
+      <Text style={styles.link} onPress={() => Linking.openURL('https://github.com/ClaryuB/ISTQB_ITA_QUIZ/issues')}>
+        Segnala un bug su GitHub
+      </Text>
+    </ScrollView>
   );
 }
 
@@ -41,5 +74,8 @@ const styles = StyleSheet.create({
   title: { fontSize: 22, color: '#fff', marginBottom: 20 },
   row: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 },
   label: { color: '#ccc', fontSize: 16 },
-  note: { color: '#888', fontSize: 14, marginTop: 30 }
+  note: { color: '#888', fontSize: 14, marginBottom: 30 },
+  sectionTitle: { fontSize: 18, color: '#fff', marginTop: 20, marginBottom: 10, fontWeight: 'bold' },
+  paragraph: { fontSize: 15, color: '#ccc', marginBottom: 8 },
+  link: { fontSize: 15, color: '#4DA6FF', marginBottom: 8 }
 });

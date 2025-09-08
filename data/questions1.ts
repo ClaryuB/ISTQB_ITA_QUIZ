@@ -45,9 +45,9 @@ const questions1: Question[] = [
   "id": "4",
   "domanda": "Lavorate in un team che sviluppa un'applicazione mobile per ordinare cibo. Nell'iterazione attuale il team ha deciso di implementare la funzionalità di pagamento. Quale delle seguenti attività fa parte dell'analisi dei test?",
   "opzioni": [
-   "Stimare che il testing del l'integrazione con il servizio di pagamento richiederà 8 giorni-persona",
+   "Stimare che il testing dell'integrazione con il servizio di pagamento richiederà 8 giorni-persona",
    "Decidere che il team dovrebbe verificare attraverso il testing se è possibile condividere correttamente i pagamenti tra molti u tenti",
-   "Utilizza re l'analisi ai valori limite per ricavare i dati di test per i test case che verificano la corretta elaborazione del pagamento , rispetto al l'importo minimo consentito da pagare",
+   "Utilizzare l'analisi ai valori limite per ricavare i dati di test per i test case che verificano la corretta elaborazione del pagamento , rispetto al l'importo minimo consentito da pagare",
    "Analizzare la discrepanza tra il risultato effettivo e il risultato atteso dopo l'esecuzione di un"
   ],
   "corretta": [
@@ -152,8 +152,8 @@ const questions1: Question[] = [
   "domanda": "Quale delle seguenti argomentazioni potrebbe essere usata per convincere il vostro manager a organizzare le retrospettive alla fine di ogni release ?",
   "opzioni": [
    "Le retrospettive sono attualmente molto popolari e i clienti apprezzerebbero se fossero inserite nei nostri processi",
-   "Organizza re retrospettive farà risparmiare denaro all'organizzazione perché i rappresentanti degli utenti finali non forniscono un feedback immediato sul prodotto",
-   "Le debolezze del processo identificate durante la retrospettiva possono essere analizzate e d essere utilizzate come lista di cose da fare per il programma di continuous process improvement (miglioramento continuo del processo ) dell'organizzazione",
+   "Organizzare retrospettive farà risparmiare denaro all'organizzazione perché i rappresentanti degli utenti finali non forniscono un feedback immediato sul prodotto",
+   "Le debolezze del processo identificate durante la retrospettiva possono essere analizzate ed essere utilizzate come lista di cose da fare per il programma di continuous process improvement (miglioramento continuo del processo ) dell'organizzazione",
    "Le retrospettive rispettano cinque valori, che includono il coraggio e il rispetto, che sono cruciali per mantenere il continuous improvement nell'organizzazione"
   ],
   "corretta": [
@@ -402,7 +402,7 @@ const questions1: Question[] = [
   "id": "28",
   "domanda": "Quale delle seguenti affermazioni descrive MEGLIO il modo in cui i criteri di accettazione possono essere documentati?",
   "opzioni": [
-   "Eseguire retrospettive per determinare le attuali esigenze degli stakeholder relativ ament e a una determinata user story",
+   "Eseguire retrospettive per determinare le attuali esigenze degli stakeholder relativamente a una determinata user story",
    "Utilizzare il formato given/when/then per descrivere un esempio di condizione di test relativa a una determinata user story",
    "Utilizzare la comunicazione verbale per ridurre il rischio di incomprensione dei criteri di accettazione da parte di altri",
    "Documentare i rischi relativi a una determinata user story in un test plan per facilitare il testing basato sul rischio di una determinata user story"
@@ -570,7 +570,7 @@ const questions1: Question[] = [
   "domanda": "Quale risposta identifica correttamente un rischio potenziale dell'esecuzione della test automation?",
   "opzioni": [
    "Può introdurre regressioni sconosciute in produzione",
-   "Gli effort necessari a manuten ere il testware po ssono non essere allocati in modo appropriato",
+   "Gli effort necessari a manutenere il testware po ssono non essere allocati in modo appropriato",
    "Gli strumenti di test e il relativo testware po ssono non essere sufficientemente affidabili",
    "Può essere ridotto il tempo dedicato al testing manuale"
   ],

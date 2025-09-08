@@ -98,10 +98,10 @@ const questions1: Question[] = [
   "id": "8",
   "domanda": "Quale delle seguenti affermazioni sull'indipendenza del testing è CORRETTA?",
   "opzioni": [
-   "I tester indipendenti rileveranno i difetti grazie a una prospettiva tecnica differente d alla prospettiva de gli sviluppatori, ma la loro indipendenza può portare a un rapporto conflittuale con gli sviluppatori",
+   "I tester indipendenti rileveranno i difetti grazie a una prospettiva tecnica differente dalla prospettiva de gli sviluppatori, ma la loro indipendenza può portare a un rapporto conflittuale con gli sviluppatori",
    "La familiarità degli sviluppatori con il proprio codice fa sì che rileveranno solo pochi difetti, ma il loro background software condiviso con i tester fa sì che questi difetti vengano rilevati anche dai tester",
    "Il testing indipendente richiede tester esterni al team di sviluppo e idealmente esterni all'organizzazione, ma questi tester hanno difficoltà a comprendere il dominio dell'applicazione",
-   "I tester esterni al team di sviluppo sono più indipendenti d ei tester all’interno del team,"
+   "I tester esterni al team di sviluppo sono più indipendenti dei tester all’interno del team,"
   ],
   "corretta": [
    "a"
@@ -395,7 +395,7 @@ const questions1: Question[] = [
   "domanda": "Quale dei seguenti NON è un obiettivo di un test plan?",
   "opzioni": [
    "Definire i dati di test e i risultati attesi per i test di componente e per i test di integrazione dei componenti",
-   "Definire il criterio di uscita d el livello di test di componente : \"deve essere raggiunto il 100% di copertura delle istruzioni e il 100% di copertura dei rami\"",
+   "Definire il criterio di uscita del livello di test di componente : \"deve essere raggiunto il 100% di copertura delle istruzioni e il 100% di copertura dei rami\"",
    "Descrivere quali campi dovrà contenere il test progress report e quale dovrebbe essere il forma to di questo report",
    "Spiegare perché il testing di integrazione dei sistemi sarà escluso dal testing, sebbene la"
   ],
@@ -418,7 +418,7 @@ const questions1: Question[] = [
  },
  {
   "id": "32",
-  "domanda": "State preparando una schedulazione di esecuzione dei test per l ’esecuzione di sette test case , da TC1 a TC7. La figura seguente riporta le priorità di questi test case (1 = priorità massima, 3 = priorità minima) e le dipendenze tra i test case attraverso le frecce. Ad esempio, la freccia da TC4 a TC5 significa che TC5 può essere eseguito solo se TC4 è stato precedentemente eseguito. Quale test case dovrebbe essere eseguito per sesto ?",
+  "domanda": "State preparando una schedulazione di esecuzione dei test per l’esecuzione di sette test case , da TC1 a TC7. La figura seguente riporta le priorità di questi test case (1 = priorità massima, 3 = priorità minima) e le dipendenze tra i test case attraverso le frecce. Ad esempio, la freccia da TC4 a TC5 significa che TC5 può essere eseguito solo se TC4 è stato precedentemente eseguito. Quale test case dovrebbe essere eseguito per sesto ?",
   "opzioni": [
    "TC3",
    "TC5",
@@ -485,7 +485,7 @@ const questions1: Question[] = [
   "id": "37",
   "domanda": "Quale dei seguenti NON è un esempio di come il configuration management supporta il testing?",
   "opzioni": [
-   "Tutti gli elementi di documentazione approvati presenti ne l repository sono identificat i in modo univoco e sottopost i al controllo della versione",
+   "Tutti gli elementi di documentazione approvati presenti nel repository sono identificati in modo univoco e sottopost i al controllo della versione",
    "Tutte le modifiche agli elementi dell'ambiente di test vengono tracciate",
    "Tutte le specifiche dei requisiti sono riferite in modo non ambiguo nei test plan",
    "Tutti i difetti identificati hanno uno stato assegnato"

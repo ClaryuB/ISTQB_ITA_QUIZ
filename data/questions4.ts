@@ -20,7 +20,7 @@ const questions1: Question[] = [
   "opzioni": [
    "Il calcolo errato dei bonus è un difetto che si verifica occasionalmente",
    "La multa ricevuta per non aver indirizzato in modo errato alcuni utenti disabili è un failure",
-   "Il programmatore che sta lavora ndo sotto forte pressione sui temp i è una root-cause",
+   "Il programmatore che sta lavora ndo sotto forte pressione sui tempi è una root-cause",
    "La progettazione dell'interfaccia utente include un errore del progettista"
   ],
   "corretta": [

@@ -33,7 +33,7 @@ const questions1: Question[] = [
   "domanda": "Uno dei \"principi del testing\" afferma che il testing esaustivo è impossibile. Quale dei seguenti è un esempio di come indirizzare nella pratica questo principio?",
   "opzioni": [
    "Creare test case che coprano tutti i possibili output specificati",
-   "Documentare tutte le possibili varianti d egli input d ei test e prioritizzarli in base all'importanza",
+   "Documentare tutte le possibili varianti degli input dei test e prioritizzarli in base all'importanza",
    "Iniziare il testing il prima possibile con le review e altri approcci di testing statico",
    "Utilizzare il partizionamento di equivalenza e l'analisi ai valori limite per generare i test case"
   ],
@@ -84,7 +84,7 @@ const questions1: Question[] = [
   "id": "7",
   "domanda": "Quale dei seguenti è il PIÙ probabile esempio di un tester che utilizza un a competenza generica durante il testing?",
   "opzioni": [
-   "La profonda conoscenza del tester su una varietà di giochi per computer gli ha permesso di anda re d'accordo con uno degli sviluppatori, anche lui appassionato di giochi",
+   "La profonda conoscenza del tester su una varietà di giochi per computer gli ha permesso di andare d'accordo con uno degli sviluppatori, anche lui appassionato di giochi",
    "Il tester ha lavorato in precedenza come pilota ed è stato in grado di comprendere meglio i criteri di accettazione del sistema di controllo dell'elicottero",
    "Il tester ha lavorato in precedenza come programmatore e ha utilizzato le sue competenze in questo settore per comunicare meglio con i business analyst",
    "Il tester è stato molto attento a non commettere errori quando ha generato metodicamente i"
@@ -110,7 +110,7 @@ const questions1: Question[] = [
   "id": "9",
   "domanda": "Quale delle seguenti affermazioni sul ciclo di vita dello sviluppo software selezionato è CORRETTA?",
   "opzioni": [
-   "Se si utilizza lo sviluppo software Agile, l ’automazione dei test d i sistema sostituisce lla necessità di eseguire il regression testing",
+   "Se si utilizza lo sviluppo software Agile, l’automazione dei test di sistema sostituisce lla necessità di eseguire il regression testing",
    "Se si utilizza un modello di sviluppo sequenziale, il testing dinamico è generalmente limitato alle fasi avanzate del ciclo di vita",
    "Se si utilizza un modello di sviluppo iterativo, il testing di componente è generalmente eseguito manualmente dagli sviluppatori",
    "Se si utilizza un modello di sviluppo incrementale, il testing statico viene eseguito nei primi"
@@ -202,8 +202,8 @@ const questions1: Question[] = [
   "domanda": "Quale dei seguenti è un beneficio di feedback anticipati e frequente da parte degli stakeholder?",
   "opzioni": [
    "I manager sono consapevoli di quali sviluppatori sono meno produttivi",
-   "Consente ai project manager di priorit izzare le loro interazioni con gli stakeholder",
-   "Facilita la comunicazione anticipat a di potenziali problemi di qualità",
+   "Consente ai project manager di prioritizzare le loro interazioni con gli stakeholder",
+   "Facilita la comunicazione anticipata di potenziali problemi di qualità",
    "Gli utenti finali comprendono meglio i motivi di un ritardo nel rilascio del prodotto di"
   ],
   "corretta": [
@@ -362,7 +362,7 @@ const questions1: Question[] = [
  },
  {
   "id": "27",
-  "domanda": "Quale delle seguenti risposte si adatta MEGLIO ad essere un elemento d i una checklist utilizzata nel testing checklist-based?",
+  "domanda": "Quale delle seguenti risposte si adatta MEGLIO ad essere un elemento di una checklist utilizzata nel testing checklist-based?",
   "opzioni": [
    "\"Lo sviluppatore ha commesso un errore nell'implementazione del codice\"",
    "\"La copertura delle istruzioni raggiunta supera l’85%”",
@@ -465,7 +465,7 @@ domanda: 'State eseguendo il testing di un\'applicazione web che permette agli u
  },
  {
   "id": "33",
-  "domanda": "In base al modello dei quadranti del testing, quale dei seguenti appartiene a l quadrant e Q1 (“Test orientati alla tecnologia che supportano il team di sviluppo \")?",
+  "domanda": "In base al modello dei quadranti del testing, quale dei seguenti appartiene al quadrante Q1 (“Test orientati alla tecnologia che supportano il team di sviluppo \")?",
   "opzioni": [
    "Testing di usabilità",
    "Testing funzionale",
@@ -520,7 +520,7 @@ domanda: 'State eseguendo il testing di un\'applicazione web che permette agli u
   "domanda": "Quale delle seguenti risposte descrive MEGLIO un esempio di come il configuration management (CM) supporta il testing?",
   "opzioni": [
    "A partire dal version number dell'ambiente, lo strumento di CM può recuperare i version number delle librerie, degli stub e dei driver utilizzati nell'ambiente",
-   "A partire dalle configurazioni di test definite dal record dei valori di input d ei test, lo strumento di CM può eseguire i test case per quest e con figurazioni e calcolare la copertura dei test",
+   "A partire dalle configurazioni di test definite dal record dei valori di input dei test, lo strumento di CM può eseguire i test case per quest e con figurazioni e calcolare la copertura dei test",
    "A partire dai dati relativi alla data di acquisto di una licenza software, lo strumento di CM genera automaticamente le informazioni su quando una licenza del prodotto sta termina ndo",
    "A partire dal version number del test case, lo strumento di CM può"
   ],
