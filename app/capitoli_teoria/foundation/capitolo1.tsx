@@ -7,8 +7,8 @@ export default function Capitolo1Screen() {
     <View style={styles.wrapper}>
     <ScrollView style={styles.container}>
       <Text style={styles.title}>1. Fondamenti del Testing</Text>
-      <Text style={styles.paragraph}>1. Fondamenti del Testing - 180 minuti 
-Parole Chiave 
+      <Text style={styles.paragraph}>1. Fondamenti del Testing - 180 minuti{'\n'} 
+Parole Chiave{'\n'} 
 analisi dei test, base di test, completamento dei test, condizione di test, controllo dei test, copertura, dati di 
 test, debugging, difetto, errore, esecuzione dei test, failure, implementazione dei test, monitoraggio 
 (monitoring) dei test, obiettivo del testing, oggetto di test, pianificazione dei test, procedura di test, processo 
@@ -16,11 +16,11 @@ di test, progettazione dei test, qualità, quality assurance, risultato del test
 testware, tracciabilità, validazione, verifica</Text>
       <Text style={styles.paragraph}>Obiettivi di Apprendimento per il Capitolo 1:</Text>
       <Text style={styles.subtitle}>1.5 Competenze Fondamentali e Buone Pratiche nel Testing</Text>
-      <Text style={styles.paragraph}>FL-1.5.1 
-(K2) Fornire esempi delle competenze generiche richieste per il testing 
-FL-1.5.2 
-(K1) Richiamare i vantaggi dell'approccio whole-team 
-FL-1.5.3 
+      <Text style={styles.paragraph}>FL-1.5.1{'\n'} 
+(K2) Fornire esempi delle competenze generiche richieste per il testing{'\n'} 
+FL-1.5.2{'\n'} 
+(K1) Richiamare i vantaggi dell'approccio whole-team{'\n'} 
+FL-1.5.3{'\n'} 
 (K2) Distinguere i benefici e gli svantaggi dell'indipendenza del testing</Text>
       
       <Text style={styles.subtitle}>1.1 Cos'è il Testing?</Text>

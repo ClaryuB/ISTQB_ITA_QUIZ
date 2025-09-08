@@ -8,15 +8,15 @@ export default function Capitolo1Screen() {
     <ScrollView style={styles.container}>
       <Text style={styles.title}>2. Testing Durante il Ciclo di Vita del Software</Text>
       <Text style={styles.paragraph}>2. Il Testing all’Interno del Ciclo di Vita dello Sviluppo 
-Software - 130 minuti 
-Parole chiave 
+Software - 130 minuti{'\n'} 
+Parole chiave{'\n'} 
 livello di test, oggetto di test, regression testing, shift-left, testing black-box, testing confermativo, testing di 
 accettazione, testing di componente, testing di integrazione, testing di integrazione dei componenti, testing 
 di integrazione dei sistemi, testing di manutenzione, testing di sistema, testing funzionale, testing non 
 funzionale, testing white-box, tipo di test 
 Obiettivi di Apprendimento per il Capitolo 2:</Text>
       <Text style={styles.subtitle}>2.3 Testing di Manutenzione</Text>
-      <Text style={styles.paragraph}>FL-2.3.1 
+      <Text style={styles.paragraph}>FL-2.3.1{'\n'} 
 (K2) Riassumere il testing di manutenzione e i suoi trigger di attivazione</Text>
 
       <Text style={styles.subtitle}>2.1 Il Testing nel Contesto di un Ciclo di Vita dello Sviluppo Software</Text>
