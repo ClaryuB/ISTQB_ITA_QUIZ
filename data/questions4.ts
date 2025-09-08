@@ -382,7 +382,7 @@ const questions1: Question[] = [
  },
  {
   "id": "28",
-  "domanda": "Quale pratica di scrittura collaborativa delle user story consente al team di raggiungere una comprensione collettiva di quello che deve essere rilasci ato?",
+  "domanda": "Quale pratica di scrittura collaborativa delle user story consente al team di raggiungere una comprensione collettiva di quello che deve essere rilasciato?",
   "opzioni": [
    "Planning poker, in modo che un team possa raggiungere il consenso sull’effort necessario per implementare una user story",
    "Review, in modo che un team possa rilevare inconsistenze e contraddizioni in una user story",
@@ -395,7 +395,7 @@ const questions1: Question[] = [
  },
  {
   "id": "29",
-  "domanda": "Avete appena iniziato a progettare i test case per la seguente user story: In tutti i test case la precondizione è la seguente: esistono solo due prodotti disponibili, A e B. Il prodotto A costa $100 e il prodotto B costa $110. Quale dei seguenti è il MIGLIOR esempio di test case per questa user story?",
+  "domanda": "Avete appena iniziato a progettare i test case per la seguente user story: In tutti i test case la precondizione è la seguente: esistono solo due prodotti disponibili, A e B. Il prodotto A costa $100 e il prodotto B costa $110. \nQuale dei seguenti è il MIGLIOR esempio di test case per questa user story?",
   "opzioni": [
    "Aprire la pagina web e impostare il filtro per visualizzare i prezzi tra $90 e $100. Risultato atteso: i risultati visualizzare solo il prodotto A. Impostare il prezzo massimo a $110. Risultato atteso: i risultati ora includono entrambi i prodotti A e B",
    "Aprire la pagina web. Risultato atteso: i prezzi minimi e massimi predefiniti sono rispettivamente $100 e $110. Aggiungere il prodotto C al magazzino, con un prezzo di $120. Aggiornare la pagina web del cliente. Risultato atteso: il prezzo massimo predefinito passa a $120",
@@ -423,7 +423,7 @@ const questions1: Question[] = [
  },
  {
   "id": "31",
-  "domanda": "Il team vuole stimare il tempo necessario per un tester ad eseguire quattro test case per un componente software. Il team ha raccolto le seguenti misure dell’effort utilizzato per eseguire un singolo test case: • Scenario migliore : 1 ora • Scenario peggiore : 8 ore • Scenario più probabile: 3 ore Si sta utilizzando la tecnica three-point estimation, qual è la stima finale del tempo necessario per eseguire tutti e quattro i test case?",
+  "domanda": "Il team vuole stimare il tempo necessario per un tester ad eseguire quattro test case per un componente software. Il team ha raccolto le seguenti misure dell’effort utilizzato per eseguire un singolo test case: \n• Scenario migliore : 1 ora \n• Scenario peggiore : 8 ore \n• Scenario più probabile: 3 ore Si sta utilizzando la tecnica three-point estimation, \nqual è la stima finale del tempo necessario per eseguire tutti e quattro i test case?",
   "opzioni": [
    "14 ore",
    "3,5 ore",
@@ -552,7 +552,7 @@ const questions1: Question[] = [
   "id": "40",
   "domanda": "Quale dei seguenti è il rischio PIÙ probabile della test automation?",
   "opzioni": [
-   "Rilev are difetti aggiuntivi di severità alta",
+   "Rilevare difetti aggiuntivi di severità alta",
    "Fornire misure che sono troppo complicate da derivare per l'uomo",
    "Incompatibilità con la piattaforma di sviluppo",
    "Tempi di esecuzione dei test notevolmente ridotti"

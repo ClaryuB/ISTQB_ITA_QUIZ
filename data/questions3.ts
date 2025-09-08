@@ -1,3 +1,8 @@
+import img_23_C from '@assets/images/domanda_23_C.png';
+import img_24_C from '@assets/images/domanda_24_C.png';
+import img_31_C from '@assets/images/domanda_31_C.png';
+import img_32_C from '@assets/images/domanda_32_C.png';
+
 import { Question } from '../types/Question';
 
 const questions1: Question[] = [
@@ -285,8 +290,8 @@ const questions1: Question[] = [
     ['C2: Esame teorico superato?', 'T', 'F', '—'],
     ['C3: Esame pratico superato?', 'T', '—', 'F'],
     ['Rilasciare una patente di guida?', 'X', '', ''],
-    ['Richiedere ulteriori lezioni di guida?', '', 'X', ''],
-    ['Richiedere di ripetere l\'esame?', '', '', 'X']
+    ['Richiedere ulteriori lezioni di guida?', '', '', 'X'],
+    ['Richiedere di ripetere l\'esame?', '', 'X', '']
   ],
   descrizione: 'Quali dati di test dimostreranno l\'esistenza di regole contraddittorie in questa tabella delle decisioni?',
     "opzioni": [
@@ -301,7 +306,8 @@ const questions1: Question[] = [
  },
  {
   "id": "23",
-  "domanda": "State progettando i test case in base al seguente state transition diagram: Qual è il numero MINIMO di test case necessari per ottenere il 100% di copertura delle transizioni valide?",
+  "domanda": "State progettando i test case in base al seguente state transition diagram: ",
+  "descrizione": "Qual è il numero MINIMO di test case necessari per ottenere il 100% di copertura delle transizioni valide?",
   "opzioni": [
    "3",
    "2",
@@ -310,11 +316,13 @@ const questions1: Question[] = [
   ],
   "corretta": [
    "a"
-  ]
+  ],
+  "immagine": img_23_C
  },
  {
   "id": "24",
-  "domanda": "Volete applicare il testing dei rami al codice rappresentato dal seguente grafico del flusso di controllo: Quanti elementi di copertura è necessario testare?",
+  "domanda": "Volete applicare il testing dei rami al codice rappresentato dal seguente grafico del flusso di controllo: ",
+  "descrizione": "Quanti elementi di copertura è necessario testare?",
   "opzioni": [
    "2",
    "4",
@@ -323,7 +331,8 @@ const questions1: Question[] = [
   ],
   "corretta": [
    "c"
-  ]
+  ],
+  "immagine": img_24_C
  },
  {
   "id": "25",
@@ -405,7 +414,8 @@ const questions1: Question[] = [
  },
  {
   "id": "31",
-  "domanda": "All'inizio di ogni iterazione, il team stima la quantità di lavoro (in giorni-persona) che dovrà essere completa ta durante l'iterazione. E(n) è la quantità di lavoro stimata per l'iterazione n, e A(n) è la quantità effettiva di lavoro svolto nell'iterazione Dalla terza iterazione, il team utilizza il seguente modello di stima basato sull'estrapolazione: 𝐸(𝑛) = 3 ∗ 𝐴(𝑛 − 1) + 𝐴(𝑛 − 2) 4 Il grafico mostra la quantità di lavoro stimata e la quantità di lavoro effettiva per le prime quattro iterazioni: Effort stimato ed effettivo (in giorni-persona) 13 12 11 10 9 8 7 6 5 4 3 2 1 0 Iteration #1 Iteration #2 Iteration #3 Iteration #4 Stimato Effettivo Qual è la quantità di lavoro stimata per l’iterazione #5?",
+  "domanda": "All'inizio di ogni iterazione, il team stima la quantità di lavoro (in giorni-persona) che dovrà essere completa ta durante l'iterazione. E(n) è la quantità di lavoro stimata per l'iterazione n, e A(n) è la quantità effettiva di lavoro svolto nell'iterazione Dalla terza iterazione, il team utilizza il seguente modello di stima basato sull'estrapolazione: 𝐸(𝑛) = 3 ∗ 𝐴(𝑛 − 1) + 𝐴(𝑛 − 2) 4 Il grafico mostra la quantità di lavoro stimata e la quantità di lavoro effettiva per le prime quattro iterazioni: Effort stimato ed effettivo (in giorni-persona) 13 12 11 10 9 8 7 6 5 4 3 2 1 0 Iteration #1 Iteration #2 Iteration #3 Iteration #4 Stimato Effettivo ",
+  "descrizione": "Qual è la quantità di lavoro stimata per l’iterazione #5?",
   "opzioni": [
    "10,5 giorni-persona",
    "8,25 giorni-persona",
@@ -414,11 +424,13 @@ const questions1: Question[] = [
   ],
   "corretta": [
    "c"
-  ]
+  ],
+  "immagine": img_31_C
  },
  {
   "id": "32",
-  "domanda": "State preparando una schedulazione di esecuzione dei test per l’esecuzione di sette test case , da TC1 a TC7. La figura seguente riporta le priorità di questi test case (1 = priorità massima, 3 = priorità minima) e le dipendenze tra i test case attraverso le frecce. Ad esempio, la freccia da TC4 a TC5 significa che TC5 può essere eseguito solo se TC4 è stato precedentemente eseguito. Quale test case dovrebbe essere eseguito per sesto ?",
+  "domanda": "State preparando una schedulazione di esecuzione dei test per l’esecuzione di sette test case , da TC1 a TC7. La figura seguente riporta le priorità di questi test case (1 = priorità massima, 3 = priorità minima) e le dipendenze tra i test case attraverso le frecce. Ad esempio, la freccia da TC4 a TC5 significa che TC5 può essere eseguito solo se TC4 è stato precedentemente eseguito. ",
+  "descrizione": "Quale test case dovrebbe essere eseguito per sesto ?",
   "opzioni": [
    "TC3",
    "TC5",
@@ -427,7 +439,8 @@ const questions1: Question[] = [
   ],
   "corretta": [
    "a"
-  ]
+  ],
+  "immagine": img_32_C
  },
  {
   "id": "33",

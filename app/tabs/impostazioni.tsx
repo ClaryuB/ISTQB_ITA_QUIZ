@@ -39,13 +39,13 @@ export default function ImpostazioniScreen() {
       <Text style={styles.link} onPress={() => Linking.openURL('https://github.com/ClaryuB')}>
         GitHub: github.com/ClaryuB
       </Text>
-      <Text style={styles.paragraph}>Ringraziamenti: Expo, React Native, TypeScript, ISTQB syllabus</Text>
+      <Text style={styles.paragraph}>Ringraziamenti: ISTQB syllabus</Text>
 
       {/* Informazioni sull’app */}
       <Text style={styles.sectionTitle}>📄 Informazioni sull’app</Text>
       <Text style={styles.paragraph}>Versione: v1.0.0</Text>
       <Text style={styles.paragraph}>Stato: Work in progress</Text>
-      <Text style={styles.paragraph}>Ultimo aggiornamento: 08/09/2025</Text>
+      <Text style={styles.paragraph}>Ultimo aggiornamento: 09/09/2025</Text>
       <Text style={styles.link} onPress={() => Linking.openURL('https://github.com/ClaryuB/ISTQB_ITA_QUIZ')}>
         Changelog su GitHub
       </Text>
