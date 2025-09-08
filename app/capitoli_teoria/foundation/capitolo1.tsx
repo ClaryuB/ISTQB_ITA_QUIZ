@@ -382,7 +382,7 @@ testing.</Text>
       <View style={styles.footer}>
         <Link href="/tabs/teoria" asChild>
           <TouchableOpacity style={styles.button}>
-            <Text style={styles.buttonText}>← Torna alla Teoria</Text>
+            <Text style={styles.buttonText}>← Torna alla scelta capitoli</Text>
           </TouchableOpacity>
         </Link>
       </View>
