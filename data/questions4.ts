@@ -16,11 +16,11 @@ const questions1: Question[] = [
  },
  {
   "id": "2",
-  "domanda": "Un progettista documenta la progettazione di un'interfaccia utente che non indirizza in modo adeguato gli utenti disabili , perché il progettista è stanco. Il programmatore implementa l'interfaccia utente in linea con la progettazione ma, poiché sta lavora ndo sotto forte pressione sui tempi, non include nel codice del programma un'adeguata gestione delle eccezioni per il calcolo dei bonus. Quando il sistema operativo viene utilizzato , alcuni utenti disabili si lamentano dell'interfaccia e l'azienda viene successivamente multata dall’autorità rilevante per la normativa . Nessuno si accorge che i calcoli dei bonus a volte sono errati. Quale delle seguenti affermazioni è CORRETTA?",
+  "domanda": "Un progettista documenta la progettazione di un'interfaccia utente che non indirizza in modo adeguato gli utenti disabili , perché il progettista è stanco. Il programmatore implementa l'interfaccia utente in linea con la progettazione ma, poiché sta lavorando sotto forte pressione sui tempi, non include nel codice del programma un'adeguata gestione delle eccezioni per il calcolo dei bonus. Quando il sistema operativo viene utilizzato , alcuni utenti disabili si lamentano dell'interfaccia e l'azienda viene successivamente multata dall’autorità rilevante per la normativa . Nessuno si accorge che i calcoli dei bonus a volte sono errati. Quale delle seguenti affermazioni è CORRETTA?",
   "opzioni": [
    "Il calcolo errato dei bonus è un difetto che si verifica occasionalmente",
    "La multa ricevuta per non aver indirizzato in modo errato alcuni utenti disabili è un failure",
-   "Il programmatore che sta lavora ndo sotto forte pressione sui tempi è una root-cause",
+   "Il programmatore che sta lavorando sotto forte pressione sui tempi è una root-cause",
    "La progettazione dell'interfaccia utente include un errore del progettista"
   ],
   "corretta": [
@@ -42,7 +42,7 @@ const questions1: Question[] = [
  },
  {
   "id": "4",
-  "domanda": "Dati i seguenti compiti di test: 1. Derivare i test case dalle condizioni di test 2. Identificare il testware riutilizzabile 3. Organizzare i test case in test procedure 4. Valutare la base di test e l'oggetto di test E le seguenti attività di test: A. Analisi dei test B. Progettazione dei test C. Implementazione dei test D. Completamento dei test Quale delle seguenti combinazioni è la MIGLIO RE corrispondenza tra compiti e attività?",
+  "domanda": "Dati i seguenti compiti di test: \n1. Derivare i test case dalle condizioni di test \n2. Identificare il testware riutilizzabile \n3. Organizzare i test case in test procedure \n4. Valutare la base di test e l'oggetto di test E le seguenti attività di test: \nA. Analisi dei test \nB. Progettazione dei test \nC. Implementazione dei test \nD. Completamento dei test \nQuale delle seguenti combinazioni è la MIGLIO RE corrispondenza tra compiti e attività?",
   "opzioni": [
    "1B, 2A, 3D, 4C",
    "1B, 2D, 3C, 4A",
@@ -55,7 +55,7 @@ const questions1: Question[] = [
  },
  {
   "id": "5",
-  "domanda": "Dato il seguente testware: i. Test completion report ii. Dati contenuti in un database utilizzato per gli input e i risultati attesi dei test iii. Lista degli elementi necessari per costruire l'ambiente di test iv. Sequenze documentate di test case in ordine di esecuzione v. Test case Quale delle seguenti risposte definisce MEGLIO il testware prodotto come risultato dell'implementazione dei test?",
+  "domanda": "Dato il seguente testware: \ni. Test completion report \nii. Dati contenuti in un database utilizzato per gli input e i risultati attesi dei test \niii. Lista degli elementi necessari per costruire l'ambiente di test \niv. Sequenze documentate di test case in ordine di esecuzione \nv. Test case \nQuale delle seguenti risposte definisce MEGLIO il testware prodotto come risultato dell'implementazione dei test?",
   "opzioni": [
    "ii, iv",
    "iii, v",
@@ -94,7 +94,7 @@ const questions1: Question[] = [
  },
  {
   "id": "8",
-  "domanda": "Dati i seguenti vantaggi e svantaggi dell'indipendenza del testing: i. I tester lavorano in una sede diversa da quella degli sviluppatori ii. I tester mettono in discussione le assunzioni che i programmatori fanno durante la scrittura del codice iii. Viene stabilita una dinamica conflittuale tra tester e sviluppatori iv. Gli sviluppatori si convin cono che i tester siano i principali responsabili della qualità v. I tester hanno bias (pregiudizi) diversi rispetto a quelli degli sviluppatori Quali sono PIÙ probabilmente considerati come vantaggi?",
+  "domanda": "Dati i seguenti vantaggi e svantaggi dell'indipendenza del testing: \ni. I tester lavorano in una sede diversa da quella degli sviluppatori \nii. I tester mettono in discussione le assunzioni che i programmatori fanno durante la scrittura del codice \niii. Viene stabilita una dinamica conflittuale tra tester e sviluppatori \niv. Gli sviluppatori si convincono che i tester siano i principali responsabili della qualità \nv. I tester hanno bias (pregiudizi) diversi rispetto a quelli degli sviluppatori \nQuali sono PIÙ probabilmente considerati come vantaggi?",
   "opzioni": [
    "i, iv",
    "ii, v",
@@ -211,7 +211,7 @@ const questions1: Question[] = [
  },
  {
   "id": "17",
-  "domanda": "Date le seguenti descrizioni delle attività di review: 1. Le anomalie identificate sono analizzate e concordate, identificando il loro stato, l’ownership ed eventuali passi aggiuntivi necessari 2. I problemi vengono memorizzati, e gli aggiornamenti necessari vengono indirizz ati prima dell'accettazione del prodotto di lavoro 3. I reviewer utilizzano tecniche per formulare suggerimenti e domande sul prodotto di lavoro , e per identificare anomalie 4. L'obiettivo della review e la sua schedulazione sono vengono stabiliti per garantire una review focalizzata ed efficiente 5. Ai partecipanti viene fornito l’accesso all’elemento sottoposto a review Nel processo di review, quale delle seguenti è la sequenza CORRETTA delle attività corrispondenti alle descrizioni?",
+  "domanda": "Date le seguenti descrizioni delle attività di review: \n1. Le anomalie identificate sono analizzate e concordate, identificando il loro stato, l’ownership ed eventuali passi aggiuntivi necessari \n2. I problemi vengono memorizzati, e gli aggiornamenti necessari vengono indirizzati prima dell'accettazione del prodotto di lavoro \n3. I reviewer utilizzano tecniche per formulare suggerimenti e domande sul prodotto di lavoro , e per identificare anomalie \n4. L'obiettivo della review e la sua schedulazione sono vengono stabiliti per garantire una review focalizzata ed efficiente \n5. Ai partecipanti viene fornito l’accesso all’elemento sottoposto a review \nNel processo di review, quale delle seguenti è la sequenza CORRETTA delle attività corrispondenti alle descrizioni?",
   "opzioni": [
    "4- 3- 5- 2- 1",
    "4- 5- 3- 1- 2",
@@ -278,8 +278,8 @@ const questions1: Question[] = [
  },
  {
   "id": "22",
-  domanda: 'State progettando i test case in base alla seguente tabella delle decisioni:',
-  tabella: [
+  "domanda": 'State progettando i test case in base alla seguente tabella delle decisioni:',
+  "tabella": [
     ['Regola', 'C1: Età', 'C2: Esperienza', 'C3: Registrato?', 'Categoria'],
     ['R1', '0–18', '—', 'NO', 'A'],
     ['R2', '19–65', '0–4', 'NO', 'A'],
@@ -289,14 +289,14 @@ const questions1: Question[] = [
     ['R6', '19–65', '—', 'SÌ', 'D'],
     ['R7', '>65', '—', 'SÌ', 'C']
   ],
-  tabella2: [
+  "tabella2": [
     ['Test Case', 'Età', 'Esperienza', 'Registrato?', 'Categoria attesa'],
     ['TC1', '19', '0', 'NO', 'A'],
     ['TC2', '65', '5', 'NO', 'B'],
     ['TC3', '66', '0', 'SÌ', 'C'],
     ['TC4', '65', '4', 'SÌ', 'D']
   ],
-  descrizione: 'Quale dei seguenti test case, se aggiunto all\'insieme di test case esistenti, aumenterà la copertura della tabella delle decisioni?',
+  "descrizione": 'Quale dei seguenti test case, se aggiunto all\'insieme di test case esistenti, aumenterà la copertura della tabella delle decisioni?',
     "opzioni": [
    "Uomo di 66 anni, non registrato, senza esperienza; risultato atteso: categoria B",
    "Donna di 55 anni, non registrata, con 2 anni di esperienza; risultato atteso: categoria A",
@@ -309,15 +309,15 @@ const questions1: Question[] = [
  },
  {
   "id": "23",
-  domanda: 'State applicando il testing delle transizioni di stato a un sistema per la prenotazione di camere di hotel. Il sistema è modellato dalla seguente tabella degli stati, con 4 stati e 5 eventi:',
-  tabella: [
+  "domanda": 'State applicando il testing delle transizioni di stato a un sistema per la prenotazione di camere di hotel. Il sistema è modellato dalla seguente tabella degli stati, con 4 stati e 5 eventi:',
+  "tabella": [
     ['Stato', 'Disponibile', 'Non Disponibile', 'Cambio Camera', 'Annullamento', 'Pagamento'],
     ['S1: Richiesta', 'S2', 'S3', '', '', ''],
     ['S2: Confermato', '', '', 'S1', 'S4', 'S4'],
     ['S3: Lista d\'attesa', 'S2', '', '', 'S4', ''],
     ['S4: Fine', '', '', '', '', '']
   ],
-  descrizione: 'Assumendo che tutti i test case inizino nello stato "Richiesta", quale delle seguenti sequenze di eventi raggiunge la copertura più alta delle transizioni valide?',
+  "descrizione": 'Assumendo che tutti i test case inizino nello stato "Richiesta", quale delle seguenti sequenze di eventi raggiunge la copertura più alta delle transizioni valide?',
     "opzioni": [
    "NonDisponibile, Disponibile, CambioCamera, NonDisponibile, Annullamento",
    "Disponibile, CambioCamera, NonDisponibile, Disponibile, Pagamento",
@@ -436,15 +436,15 @@ const questions1: Question[] = [
  },
  {
   "id": "32",
-  domanda: 'La tabella mostra la matrice di tracciabilità tra i test case e i requisiti. "X" significa che un determinato test case copre il requisito corrispondente.',
-  tabella: [
+  "domanda": 'La tabella mostra la matrice di tracciabilità tra i test case e i requisiti. "X" significa che un determinato test case copre il requisito corrispondente.',
+  "tabella": [
     ['Requisiti', 'Req1', 'Req2', 'Req3', 'Req4', 'Req5', 'Req6', 'Req7'],
     ['TC1', 'X', '', 'X', 'X', '', '', 'X'],
     ['TC2', 'X', '', '', '', 'X', '', 'X'],
     ['TC3', '', '', '', '', 'X', 'X', ''],
     ['TC4', '', 'X', '', '', '', '', '']
   ],
-  descrizione: 'Volete prioritizzare i test case in base alla copertura aggiuntiva. Eseguite tutti e quattro i test case. Quale test case dovrebbe essere eseguito per ULTIMO?',
+  "descrizione": 'Volete prioritizzare i test case in base alla copertura aggiuntiva. Eseguite tutti e quattro i test case. Quale test case dovrebbe essere eseguito per ULTIMO?',
     "opzioni": [
    "TC1",
    "TC2",
@@ -537,7 +537,7 @@ const questions1: Question[] = [
  },
  {
   "id": "39",
-  "domanda": "Date le seguenti categorie di strumenti di test: i. Strumenti di collaborazione ii. Strumenti DevOps iii. Strumenti di management iv. Strumenti di testing non-funzionale v. Strumenti di progettazione e implementazione dei test Quali sono le categorie di strumenti che facilitano con MAGGIORE probabilità l'esecuzione dei test?",
+  "domanda": "Date le seguenti categorie di strumenti di test: \ni. Strumenti di collaborazione \nii. Strumenti DevOps \niii. Strumenti di management \niv. Strumenti di testing non-funzionale \nv. Strumenti di progettazione e implementazione dei test \nQuali sono le categorie di strumenti che facilitano con MAGGIORE probabilità l'esecuzione dei test?",
   "opzioni": [
    "i, v",
    "ii, iv",

@@ -277,8 +277,8 @@ const questions1: Question[] = [
  },
  {
   "id": "22",
-  domanda: 'La seguente tabella delle decisioni contiene le regole per determinare il rischio di arteriosclerosi.',
-  tabella: [
+  "domanda": 'La seguente tabella delle decisioni contiene le regole per determinare il rischio di arteriosclerosi.',
+  "tabella": [
     ['Regola', 'Colesterolo (mg/dl)', 'Pressione sanguigna (mm Hg)', 'Livello di rischio'],
     ['R1', '≤ 124', '≤ 140', 'Molto basso'],
     ['R2', '≤ 124', '> 140', 'Basso'],
@@ -286,7 +286,7 @@ const questions1: Question[] = [
     ['R4', '125–200', '> 140', 'Alto'],
     ['R5', '≥ 201', '—', 'Molto alto']
   ],
-  tabella2: [
+  "tabella2": [
     ['Test Case', 'Colesterolo (mg/dl)', 'Pressione sanguigna (mm Hg)'],
     ['TC1', '125', '141'],
     ['TC2', '200', '201'],
@@ -294,7 +294,7 @@ const questions1: Question[] = [
     ['TC4', '109', '200'],
     ['TC5', '201', '140']
   ],
-  descrizione: 'Qual è la copertura della tabella delle decisioni raggiunta con questi test case?',
+  "descrizione": 'Qual è la copertura della tabella delle decisioni raggiunta con questi test case?',
     "opzioni": [
    "40%",
    "60%",
@@ -336,7 +336,7 @@ const questions1: Question[] = [
   "id": "25",
   "domanda": "La metrica di copertura dei rami è definita come BCov = (X / Y) * 100%. \nCosa rappresentano X e Y in questa formula?",
   "opzioni": [
-   "X = numero di esiti decision ali esercitat i dai test case  Y = numero totale di esiti decisionali nel codice",
+   "X = numero di esiti decisionali esercitati dai test case  Y = numero totale di esiti decisionali nel codice",
    "X = numero di rami condizionali esercitati dai test case Y = numero totale di rami nel codice",
    "X = numero di rami esercitati dai test case Y = numero totale di rami nel codice",
    "X = numero di rami condizionali esercitati dai test case"
@@ -414,15 +414,15 @@ const questions1: Question[] = [
  },
  {
   "id": "31",
- domanda: 'Volete stimare l\'effort del test per un nuovo progetto utilizzando una stima basata su valori statistici. La stima si basa sui valori medi dell\'effort di sviluppo e dell\'effort di test di quattro progetti storici simili.',
-  tabella: [
+ "domanda": 'Volete stimare l\'effort del test per un nuovo progetto utilizzando una stima basata su valori statistici. La stima si basa sui valori medi dell\'effort di sviluppo e dell\'effort di test di quattro progetti storici simili.',
+  "tabella": [
     ['Progetto', 'Effort dello sviluppo ($)', 'Effort del test ($)'],
     ['P1', '800.000', '40.000'],
     ['P2', '1.200.000', '130.000'],
     ['P3', '600.000', '70.000'],
     ['P4', '1.000.000', '120.000']
   ],
-  descrizione: 'L\'effort di sviluppo stimato per il nuovo progetto è di $800.000. Qual è la vostra stima dell\'effort del test per questo progetto?',
+  "descrizione": 'L\'effort di sviluppo stimato per il nuovo progetto è di $800.000. Qual è la vostra stima dell\'effort del test per questo progetto?',
     "opzioni": [
    "$40.000",
    "$80.000",
@@ -435,8 +435,8 @@ const questions1: Question[] = [
  },
  {
   "id": "32",
-domanda: 'State eseguendo il testing di un\'applicazione web che permette agli utenti di eseguire diverse funzionalità: RICERCA di prodotti, VISUALIZZARE i dettagli, AGGIUNGERE al carrello ed effettuare un ORDINE.',
-  tabella: [
+"domanda": 'State eseguendo il testing di un\'applicazione web che permette agli utenti di eseguire diverse funzionalità: RICERCA di prodotti, VISUALIZZARE i dettagli, AGGIUNGERE al carrello ed effettuare un ORDINE.',
+  "tabella": [
     ['Test Case', 'Funzionalità', 'Priorità (1 = più alta)'],
     ['TC1', 'RICERCA per il prodotto A', '4'],
     ['TC2', 'RICERCA per il prodotto B', '4'],
@@ -446,13 +446,13 @@ domanda: 'State eseguendo il testing di un\'applicazione web che permette agli u
     ['TC6', 'AGGIUNGERE il prodotto B al carrello', '1'],
     ['TC7', 'Confermare un ORDINE', '5']
   ],
-  tabella2: [
+  "tabella2": [
     ['Dipendenze logiche'],
     ['RICERCA → VISUALIZZARE'],
     ['VISUALIZZARE → AGGIUNGERE'],
     ['AGGIUNGERE → ORDINE']
   ],
-  descrizione: 'Quale test case dovrebbe essere eseguito come quarto test case, considerando priorità e dipendenze logiche?',
+  "descrizione": 'Quale test case dovrebbe essere eseguito come quarto test case, considerando priorità e dipendenze logiche?',
     "opzioni": [
    "TC3",
    "TC1",
@@ -504,7 +504,7 @@ domanda: 'State eseguendo il testing di un\'applicazione web che permette agli u
  },
  {
   "id": "36",
-  "domanda": "Il vostro team di test fa parte di un team di progetto situato in Nord America, che sta sviluppa ndo un prodotto per un cliente in Europa. Il progetto a pplica uno sviluppo software Agile e segue l'approccio DevOps , utilizza ndo una pipeline di continuous integration/continuous delivery. Quale dei seguenti è il modo MENO efficace per comunicare al cliente l'avanzamento dei test?",
+  "domanda": "Il vostro team di test fa parte di un team di progetto situato in Nord America, che sta sviluppando un prodotto per un cliente in Europa. Il progetto applica uno sviluppo software Agile e segue l'approccio DevOps , utilizzando una pipeline di continuous integration/continuous delivery. Quale dei seguenti è il modo MENO efficace per comunicare al cliente l'avanzamento dei test?",
   "opzioni": [
    "Face-to-face",
    "Dashboard",
@@ -521,7 +521,7 @@ domanda: 'State eseguendo il testing di un\'applicazione web che permette agli u
   "opzioni": [
    "A partire dal version number dell'ambiente, lo strumento di CM può recuperare i version number delle librerie, degli stub e dei driver utilizzati nell'ambiente",
    "A partire dalle configurazioni di test definite dal record dei valori di input dei test, lo strumento di CM può eseguire i test case per quest e con figurazioni e calcolare la copertura dei test",
-   "A partire dai dati relativi alla data di acquisto di una licenza software, lo strumento di CM genera automaticamente le informazioni su quando una licenza del prodotto sta termina ndo",
+   "A partire dai dati relativi alla data di acquisto di una licenza software, lo strumento di CM genera automaticamente le informazioni su quando una licenza del prodotto sta terminando",
    "A partire dal version number del test case, lo strumento di CM può"
   ],
   "corretta": [
@@ -530,8 +530,8 @@ domanda: 'State eseguendo il testing di un\'applicazione web che permette agli u
  },
  {
   "id": "38",
-domanda: 'State eseguendo il testing di una funzione di ordinamento che riceve come input un insieme di numeri e restituisce lo stesso insieme di numeri ordinati in ordine crescente. Il log dell\'esecuzione dei test è il seguente: \n\n Configurazione dell\'ambiente: build della funzione di ordinamento 2.002.2182, insieme di test \n case:TCS-3, numero di TC (test case): 5\n ID test run: 736\n Inizio 12:43:21.003\n 12:43:21.003 Esecuzione TC1.\n 12:43:21.003 Esecuzione TC2.\n 12:43:21.004 Esecuzione TC3.\n 12:43:21.005 Esecuzione TC4.\n 12:43:21.005 Esecuzione TC5.\n Fine 12:43:21.005\n Input TC1: 3.\n Input TC2: 3 11 6 5.\n Input TC3: 8 7 3 7 1.\n Input TC4: -2 -2 -2 -3 -3.\n Input TC5: 0 -2 0 3 4 4.\n Output TC1: 3. Risultato: superato\n Output TC2: 3 5 6 11. Risultato: superato\n Output TC3: 1 3 7 8. Risultato: fallito\n Output TC4: -3 -2. Risultato: fallito\n Output TC5: -2 0 3 4. Risultato: fallito\n Tempo totale del ciclo di test: 0:00:00.002',
-  descrizione: 'Quale delle seguenti risposte fornisce la MIGLIORE descrizione di un failure in un defect report?',
+"domanda": 'State eseguendo il testing di una funzione di ordinamento che riceve come input un insieme di numeri e restituisce lo stesso insieme di numeri ordinati in ordine crescente. Il log dell\'esecuzione dei test è il seguente: \n\n Configurazione dell\'ambiente: build della funzione di ordinamento 2.002.2182, insieme di test \n case:TCS-3, numero di TC (test case): 5\n ID test run: 736\n Inizio 12:43:21.003\n 12:43:21.003 Esecuzione TC1.\n 12:43:21.003 Esecuzione TC2.\n 12:43:21.004 Esecuzione TC3.\n 12:43:21.005 Esecuzione TC4.\n 12:43:21.005 Esecuzione TC5.\n Fine 12:43:21.005\n Input TC1: 3.\n Input TC2: 3 11 6 5.\n Input TC3: 8 7 3 7 1.\n Input TC4: -2 -2 -2 -3 -3.\n Input TC5: 0 -2 0 3 4 4.\n Output TC1: 3. Risultato: superato\n Output TC2: 3 5 6 11. Risultato: superato\n Output TC3: 1 3 7 8. Risultato: fallito\n Output TC4: -3 -2. Risultato: fallito\n Output TC5: -2 0 3 4. Risultato: fallito\n Tempo totale del ciclo di test: 0:00:00.002',
+  "descrizione": 'Quale delle seguenti risposte fornisce la MIGLIORE descrizione di un failure in un defect report?',
     "opzioni": [
    "Il sistema non riesce a ordinare diverse serie di numeri. Riferimento: TC3, TC4, TC5",
    "Il sistema sembra non tenere conto dei duplicati durante l'ordinamento. Riferimento: TC3, TC4, TC5",

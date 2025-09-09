@@ -283,8 +283,8 @@ const questions1: Question[] = [
  },
  {
   "id": "22",
- domanda: 'State lavorando in un progetto per lo sviluppo di un sistema di analisi dei risultati degli esami di guida. Vi è stato chiesto di progettare i test case in base alla seguente tabella delle decisioni:',
-  tabella: [
+ "domanda": 'State lavorando in un progetto per lo sviluppo di un sistema di analisi dei risultati degli esami di guida. Vi è stato chiesto di progettare i test case in base alla seguente tabella delle decisioni:',
+  "tabella": [
     ['Condizioni / Azioni', 'R1', 'R2', 'R3'],
     ['C1: Primo tentativo di esame?', '—', '—', 'F'],
     ['C2: Esame teorico superato?', 'T', 'F', '—'],
@@ -293,7 +293,7 @@ const questions1: Question[] = [
     ['Richiedere ulteriori lezioni di guida?', '', '', 'X'],
     ['Richiedere di ripetere l\'esame?', '', 'X', '']
   ],
-  descrizione: 'Quali dati di test dimostreranno l\'esistenza di regole contraddittorie in questa tabella delle decisioni?',
+  "descrizione": 'Quali dati di test dimostreranno l\'esistenza di regole contraddittorie in questa tabella delle decisioni?',
     "opzioni": [
    "C1 = T, C2 = T, C3 = F",
    "C1 = T, C2 = F, C3 = T",
@@ -349,7 +349,7 @@ const questions1: Question[] = [
  },
  {
   "id": "26",
-  "domanda": "Considerate il seguente elenco: • Input corretto non accettato • Input non corretto accettato • Formato di output errato • Divisione per zero Quale tecnica di test viene PIÙ PROBABILMENTE utilizzata dal tester che utilizza questo elenco durante l’esecuzione dei test?",
+  "domanda": "Considerate il seguente elenco: \n• Input corretto non accettato \n• Input non corretto accettato \n• Formato di output errato \n• Divisione per zero \nQuale tecnica di test viene PIÙ PROBABILMENTE utilizzata dal tester che utilizza questo elenco durante l’esecuzione dei test?",
   "opzioni": [
    "Testing esplorativo",
    "Fault attack",

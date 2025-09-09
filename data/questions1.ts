@@ -305,14 +305,14 @@ const questions1: Question[] = [
  },
  {
   "id": "22",
-  domanda: 'Il vostro negozio preferito di noleggio giornaliero di biciclette ha appena introdotto un nuovo sistema di Customer Relationship Management (CRM). Le funzionalità implementate sono:',
-  tabella: [
+  "domanda": 'Il vostro negozio preferito di noleggio giornaliero di biciclette ha appena introdotto un nuovo sistema di Customer Relationship Management (CRM). Le funzionalità implementate sono:',
+  "tabella": [
     ['Funzionalità'],
     ['• Chiunque può noleggiare una bicicletta, e i soci del negozio ricevono uno sconto del 20%'],
     ['• Se il termine di restituzione non viene rispettato, lo sconto non è più disponibile'],
     ['• Dopo 15 noleggi, i soci ricevono in regalo una maglietta']
   ],
-  tabella2: [
+  "tabella2": [
     ['Condizioni', 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8'],
     ['Essere socio del negozio', 'T', 'T', 'T', 'T', 'F', 'F', 'F', 'F'],
     ['Termine non rispettato', 'T', 'F', 'T', 'F', 'T', 'F', 'F', 'T'],
@@ -321,7 +321,7 @@ const questions1: Question[] = [
     ['20% di sconto', '', 'X', '', 'X', '', '', '', ''],
     ['Maglietta regalo', '', '', 'X', 'X', '', '', '', 'X']
   ],
-  descrizione: 'Basandosi SOLO sulla descrizione delle funzionalità del sistema di Customer Relationship Management, quale delle regole definite sopra descrive una situazione impossibile?',
+  "descrizione": 'Basandosi SOLO sulla descrizione delle funzionalità del sistema di Customer Relationship Management, quale delle regole definite sopra descrive una situazione impossibile?',
    "opzioni": [
    "R4",
    "R2",
@@ -467,8 +467,8 @@ const questions1: Question[] = [
  },
  {
   "id": "33",
-  domanda: 'State testando un\'applicazione mobile che consente agli utenti di trovare un ristorante nelle vicinanze in base al tipo di cibo desiderato. Si consideri la seguente lista di test case, con priorità (un valore più piccolo indica priorità più alta) e dipendenze:',
-  tabella: [
+  "domanda": 'State testando un\'applicazione mobile che consente agli utenti di trovare un ristorante nelle vicinanze in base al tipo di cibo desiderato. Si consideri la seguente lista di test case, con priorità (un valore più piccolo indica priorità più alta) e dipendenze:',
+  "tabella": [
     ['Numero di test case', 'Condizione di test coperta', 'Priorità', 'Dipendenza logica'],
     ['TC 001', 'Selezionare il tipo di cibo', '3', 'nessuna'],
     ['TC 002', 'Selezionare il ristorante', '2', 'TC 001'],
@@ -476,7 +476,7 @@ const questions1: Question[] = [
     ['TC 004', 'Chiamare il ristorante', '2', 'TC 002'],
     ['TC 005', 'Eseguire la prenotazione', '3', 'TC 002']
   ],
-  descrizione: 'Quale dei seguenti test case dovrebbe essere eseguito come terzo?',
+  "descrizione": 'Quale dei seguenti test case dovrebbe essere eseguito come terzo?',
     "opzioni": [
    "TC 003",
    "TC 005",
@@ -570,8 +570,8 @@ const questions1: Question[] = [
   "domanda": "Quale risposta identifica correttamente un rischio potenziale dell'esecuzione della test automation?",
   "opzioni": [
    "Può introdurre regressioni sconosciute in produzione",
-   "Gli effort necessari a manutenere il testware po ssono non essere allocati in modo appropriato",
-   "Gli strumenti di test e il relativo testware po ssono non essere sufficientemente affidabili",
+   "Gli effort necessari a manutenere il testware possono non essere allocati in modo appropriato",
+   "Gli strumenti di test e il relativo testware possono non essere sufficientemente affidabili",
    "Può essere ridotto il tempo dedicato al testing manuale"
   ],
   "corretta": [
