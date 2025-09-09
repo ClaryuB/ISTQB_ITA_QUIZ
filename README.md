@@ -8,7 +8,7 @@ Una web app realizzata con **Expo + React Native Web**, disponibile online su Ve
 
 ### 🔹 1. Clonare il progetto
 ```bash
-git clone https://github.com/TUO_USERNAME/ISTQB_ITA_QUIZ.git
+git clone https://github.com/ClaryuB/ISTQB_ITA_QUIZ.git
 cd ISTQB_ITA_QUIZ
 ```
 
@@ -70,7 +70,7 @@ I file pronti per la produzione saranno generati nella cartella **`dist/`**.
 
 ### 🔹 1. Clone the project
 ```bash
-git clone https://github.com/TUO_USERNAME/ISTQB_ITA_QUIZ.git
+git clone https://github.com/ClaryuB/ISTQB_ITA_QUIZ.git
 cd ISTQB_ITA_QUIZ
 ```
 
@@ -125,3 +125,4 @@ Production-ready files will be generated inside the **`dist/`** folder.
 ### 🔹 6. Online app
 👉 The public version is available here:
 [https://istqb-ita-quiz.vercel.app](https://istqb-ita-quiz.vercel.app)
+
